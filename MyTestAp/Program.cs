@@ -13,7 +13,7 @@ namespace MyTestAp
         static ConsoleColor GlowColor = ConsoleColor.Green;
         static ConsoleColor FancyColor = ConsoleColor.White;
         static String TextInput = "Matrix";
-        
+        //heres a change
       public static void Main(string[] args)
         {
             Console.ForegroundColor = NormalColor;
