@@ -6,9 +6,9 @@ namespace MyTestAp
     {
         static int Counter;
         static Random rand = new Random();
-        static int Interval = 100; 
-        static int FullFlow = Interval + 30; 
-        static int Blacking = FullFlow + 50; 
+        static int Interval = 50; 
+        static int FullFlow = Interval + 15; 
+        static int Blacking = FullFlow + 25; 
         static ConsoleColor NormalColor = ConsoleColor.DarkGreen;
         static ConsoleColor GlowColor = ConsoleColor.Green;
         static ConsoleColor FancyColor = ConsoleColor.White;
